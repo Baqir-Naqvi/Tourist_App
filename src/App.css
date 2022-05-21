@@ -27,7 +27,7 @@
   }
   
   .about-us {
-     background-image: url('C:\Users\DELL\Desktop\ReactProjects\Webpage\tourism\src\img-2.jpg');
+     background-image: url('./img-2.jpg');
     background-position: center; 
     background-size: fill;
     background-repeat: no-repeat;
