@@ -1,0 +1,49 @@
+.hero-container{
+    background: url('../img-5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.midpage-text{
+    color: white;
+    font-weight: 30;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 200px;
+}
+.midpage-text slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 300px;
+    max-width: 500px
+  }
+  
+  h1 ,h2{
+    animation: fadeinout 3s 1 forwards;
+      
+  }
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    align-items: center;
+    margin-top: 50px;
+}
+.hero-btn .btns2{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+}
+    
+@keyframes fadeinout {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    } 
+}
